@@ -81,6 +81,8 @@ Side MenuText
 	align-self:center;
 }
 
+
+
 .account-details{
 	grid-area:details;
 	display:flex;
@@ -97,4 +99,23 @@ Side MenuText
 .email__text{
 	font-size:0.9rem;
 	letter-spacing:0.1rem;
+}
+
+.profile-image__container{
+	grid-area:image;
+	margin-right:0.5rem;
+	border-radius:50%;
+	height:4rem;
+	width:4rem;
+	overflow:hidden;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	background-color:white;
+	align-self:center;
+	margin-left:2rem;
+}
+
+.profile__image{
+	max-width: 4rem;
 }
