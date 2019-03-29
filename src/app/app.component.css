@@ -61,6 +61,14 @@ Side MenuText
 .menu-header{
 	background : linear-gradient(to right,#00FF9B,#5f84fb);
 	display : grid;
+	grid-template-rows: 1fr 4fr;
+	grid-template-columns: 1fr 4fr;
+	grid-template-areas: "greeting greeting" "image details";
+	box-sizing:border-box;
+	width : 100%;
+	align-content:center;
+	color:white;
+	box-shadow:0 0.5rem 2rem rgba(0,0,255,0.2);
 	
 }
 
