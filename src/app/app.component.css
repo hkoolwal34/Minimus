@@ -69,7 +69,16 @@ Side MenuText
 	align-content:center;
 	color:white;
 	box-shadow:0 0.5rem 2rem rgba(0,0,255,0.2);
-	
+}
+
+.greeting__text{
+	grid-area:greeting;
+	font-size:1.25rem;
+	letter-spacing:0.15rem;
+	text-transform:uppercase;
+	margin-top:1rem;
+	justify-self:center;
+	align-self:center;
 }
 
 
