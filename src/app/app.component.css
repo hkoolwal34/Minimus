@@ -119,3 +119,10 @@ Side MenuText
 .profile__image{
 	max-width: 4rem;
 }
+
+.menu-body {
+  display: grid;
+  width: 100%;
+}
+
+
