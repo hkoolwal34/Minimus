@@ -81,4 +81,20 @@ Side MenuText
 	align-self:center;
 }
 
+.account-details{
+	grid-area:details;
+	display:flex;
+	flex-flow:column;
+	margin-left:1rem;
+	align-self : center;
+}
 
+.name__text{
+	font-size:1.15rem;
+	margin-bottom:0.5rem;
+}
+
+.email__text{
+	font-size:0.9rem;
+	letter-spacing:0.1rem;
+}
